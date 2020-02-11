@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  remote_user: ubuntu
+  remote_user: samba
   vars:
     node_exporter_version: 0.14.0
   tasks:
