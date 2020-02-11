@@ -2,7 +2,7 @@
 - hosts: all
   remote_user: samba
   vars:
-    node_exporter_version: 0.14.0
+    node_exporter_version: 0.18.1
   tasks:
     - name: test connection
       ping:
